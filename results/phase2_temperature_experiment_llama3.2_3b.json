@@ -1,0 +1,1361 @@
+{
+  "model": "llama3.2:3b",
+  "n_repeats": 8,
+  "per_prompt": [
+    {
+      "prompt_id": "fact_01",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris"
+      ],
+      "temp07_responses": [
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris",
+        "Paris"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_02",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au"
+      ],
+      "temp07_responses": [
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au",
+        "Au"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_03",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare"
+      ],
+      "temp07_responses": [
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare.",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare.",
+        "William Shakespeare",
+        "William Shakespeare"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_04",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter"
+      ],
+      "temp07_responses": [
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter.",
+        "Jupiter"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.875,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_05",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "1945",
+        "1945",
+        "1945",
+        "1945",
+        "1945",
+        "1945",
+        "1945",
+        "1945"
+      ],
+      "temp07_responses": [
+        "1945",
+        "1945",
+        "1945.",
+        "1945.",
+        "1945.",
+        "1945",
+        "1945.",
+        "1945"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.5,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_06",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest"
+      ],
+      "temp07_responses": [
+        "Mount Everest.",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest",
+        "Mount Everest"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.875,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_07",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "temp07_responses": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_08",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci."
+      ],
+      "temp07_responses": [
+        "Leonardo da Vinci",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci",
+        "Leonardo da Vinci.",
+        "Leonardo da Vinci."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_09",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (JPY)"
+      ],
+      "temp07_responses": [
+        "Yen",
+        "Japanese Yen (JPY)",
+        "Yen (JPY)",
+        "Yen (\u00a5)",
+        "Yen (JPY)",
+        "Yen (\u00a5)",
+        "Yen (JPY)",
+        "Yen (\u00a5)"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.5,
+      "agreement_rate_vs_temp0_reference": 0.375,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_10",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+      ],
+      "temp07_responses": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_11",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      "temp07_responses": [
+        "100\u00b0C.",
+        "100\u00b0C",
+        "100",
+        "100",
+        "100\u00b0C.",
+        "100\u00b0C",
+        "100",
+        "100\u00b0C"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.375,
+      "agreement_rate_vs_temp0_reference": 0.375,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_12",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong"
+      ],
+      "temp07_responses": [
+        "Neil Armstrong.",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong.",
+        "Neil Armstrong",
+        "Neil Armstrong",
+        "Neil Armstrong"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_13",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River"
+      ],
+      "temp07_responses": [
+        "Nile River",
+        "Nile River.",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River",
+        "Nile River.",
+        "Nile River."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.625,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_14",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2)."
+      ],
+      "temp07_responses": [
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2).",
+        "Carbon dioxide (CO2)",
+        "Carbon dioxide (CO2)",
+        "Carbon dioxide (CO2)",
+        "Carbon dioxide (CO2)",
+        "Carbon dioxide (CO2).",
+        "Carbon Dioxide (CO2)"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.375,
+      "agreement_rate_vs_temp0_reference": 0.375,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "fact_15",
+      "task_type": "factual_qa",
+      "temp0_responses": [
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C.",
+        "0\u00b0C."
+      ],
+      "temp07_responses": [
+        "0\u00b0C",
+        "0\u00b0C",
+        "0\u00b0C",
+        "0\u00b0C",
+        "0\u00b0C",
+        "0\u00b0C",
+        "0\u00b0C.",
+        "0\u00b0C."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.25,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_01",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process is essential for life on Earth, providing the foundation for most food chains and producing oxygen that supports nearly all living organisms."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which green plants and some other organisms convert light energy into chemical energy, producing glucose and releasing oxygen. This process occurs primarily in chloroplasts and is essential for life on Earth, supporting most food chains and providing oxygen for many living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy using sunlight, water, and carbon dioxide. This process produces glucose and releases oxygen as a byproduct, making it the foundation of most food chains on Earth and essential for life.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy, using sunlight, water, and carbon dioxide. This process produces glucose and releases oxygen as a byproduct, serving as the foundation for most food chains on Earth and providing oxygen essential for life.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, releasing glucose and oxygen. This essential process occurs primarily in chloroplasts of plant cells and provides the foundation for most food chains on Earth, producing oxygen that many living organisms rely on to survive.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy using sunlight, water, and carbon dioxide. This process, primarily occurring in chloroplasts, produces glucose and releases oxygen, serving as the foundation of most food chains on Earth and supporting life on the planet.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen. This essential process occurs primarily in chloroplasts of plant cells and provides the foundation for most food chains on Earth, supporting life by producing oxygen.",
+        "Here is a 1-2 sentence summary:\n\nPhotosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This essential process supports life on Earth, forming the basis of most food chains and providing oxygen for nearly all living organisms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPhotosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and releasing oxygen as a byproduct. This process occurs primarily in chloroplasts and is essential for most food chains on Earth, providing oxygen that many living organisms rely on to survive."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_02",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through complex movements like the waggle dance."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybees live in highly organized colonies with a single queen and thousands of female workers, who communicate the location of food sources through complex dance patterns. These worker bees are crucial for pollinating many crops that humans rely on for food, making them essential to global agriculture.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybees live in highly organized colonies with a queen, thousands of female worker bees, and male drones, working together to gather food and communicate through complex movements. Bees play a crucial role in pollinating many crops that humans rely on for food, making them essential to global agriculture.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized with a queen and thousands of female worker bees, who communicate through complex movements to locate food sources. Bees play a crucial role in pollinating crops that humans rely on for food, making them essential to global agriculture.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones. Worker bees play a crucial role in pollination by collecting nectar and pollen while communicating with each other through complex movements, making them essential to global agriculture.",
+        "Here is a 1-2 sentence summary:\n\nHoneybee colonies are highly organized and consist of a queen, thousands of female worker bees, and male drones, with workers responsible for foraging and communicating through complex movements. Bees play a crucial role in pollination, making them essential to global agriculture.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies are highly organized societies consisting of a queen, female worker bees, and male drones. Worker bees play a crucial role in pollination by foraging for nectar and pollen, communicating with each other through dance patterns to locate food sources.",
+        "Here is a 1-2 sentence summary:\n\nHoneybees live in highly organized colonies with a queen, female workers, and male drones, working together to gather nectar and pollen through complex communication. These bees play a crucial role in pollinating crops that humans rely on for food, making them essential to global agriculture.",
+        "Here is a summary of the text in 1-2 sentences:\n\nHoneybee colonies consist of a single queen, thousands of female worker bees, and male drones, with workers playing a crucial role in foraging and communicating about food sources. Bees are vital pollinators of many crops that humans rely on for food, making them essential to global agriculture."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_03",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans and other sources, rises into the atmosphere, condenses to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle."
+      ],
+      "temp07_responses": [
+        "Here is a 1-2 sentence summary:\n\nThe water cycle is the continuous movement of water on, above, and below the surface of the Earth. Water evaporates from oceans and other bodies, rises into the atmosphere, cools to form clouds, and eventually falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle is the continuous process by which water moves through the Earth's surface, atmosphere, and underground. It begins with evaporation from oceans and other bodies of water, followed by condensation into clouds, precipitation, and ultimately back to the ground or bodies of water.",
+        "The water cycle is a continuous process where water evaporates from the Earth's surface, cools in the atmosphere, and returns to the planet as precipitation. This cycle repeats itself, with water flowing into bodies of water or seeping into the ground, ultimately starting the process again.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water between the Earth's surface and atmosphere, where it evaporates, condenses, and returns to the planet as precipitation. The process repeats itself, with water flowing into bodies of water or seeping into the ground, to restart the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water between the Earth's surface and atmosphere. Water evaporates from oceans and other sources, rises to form clouds, and then falls back to Earth as precipitation, restarting the cycle.",
+        "Here is a 1-2 sentence summary:\n\nThe water cycle is the continuous movement of water on, above, and below the Earth's surface. Water evaporates from oceans to form clouds, which eventually fall back to Earth as precipitation, restarting the cycle.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe water cycle describes the continuous movement of water on, above, and below the surface of the Earth. It begins with evaporation from oceans and other bodies of water, followed by condensation into clouds, precipitation, and ultimately back to the Earth's surface.",
+        "The water cycle is a continuous process where water moves between the Earth's surface, atmosphere, and underground, with water evaporating from oceans and lakes, forming clouds, and eventually returning to the surface as precipitation. This process repeats endlessly, with water flowing back into bodies of water or seeping into the ground to restart the cycle."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_04",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules. A trained model can then be applied to new data, allowing it to make predictions and perform tasks such as image recognition and language translation."
+      ],
+      "temp07_responses": [
+        "Machine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules, allowing them to make predictions on new, unseen data. This field has numerous applications, including image recognition, language translation, and personalized recommendations.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn from data without explicit rules, allowing them to make predictions on new, unseen information. This technology is applied in various fields such as image recognition, language translation, and recommendation systems.",
+        "Here is a 1-2 sentence summary:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data and make predictions without explicit rules. It involves training models on datasets to minimize prediction error, allowing them to be applied to new, unseen data for applications such as image recognition, language translation, and recommendation systems.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data without explicit rules, allowing them to make predictions on new, unseen information. It has numerous applications, including image recognition, language translation, and recommendation systems used by online platforms.",
+        "Here is a 1-2 sentence summary of the text:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn patterns from data and make predictions without explicit rules. It involves training models on datasets to improve performance and applying them to new, unseen data for various applications such as image recognition and language translation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is an artificial intelligence branch that enables computers to learn patterns from data without explicit rules, allowing them to make predictions on new, unseen data. Applications of machine learning include image recognition, language translation, and recommendation systems used by online platforms.",
+        "Here is a 1-2 sentence summary of the text:\n\nMachine learning is a type of artificial intelligence that enables computer systems to learn from data patterns without explicit rules, allowing them to make predictions on new, unseen information. This approach has numerous applications, including image recognition, language translation, and recommendation systems used by online platforms.",
+        "Here is a summary of the text in 1-2 sentences:\n\nMachine learning is a type of artificial intelligence where computers learn patterns from data without relying on explicit rules. By training on a dataset, machine learning models can make predictions on new, unseen data and are commonly applied in applications such as image recognition, language translation, and recommendation systems."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_05",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, supporting thousands of marine species. Rising ocean temperatures due to climate change have caused mass coral bleaching events, threatening the reef's long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening the reef's ecosystem.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off Australia, is the world's largest coral reef system, home to thousands of marine species. However, it faces an existential threat due to rising ocean temperatures caused by climate change, leading to repeated mass coral bleaching events.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, off Australia's coast, is the world's largest coral reef system, home to thousands of species of marine life. Rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening the reef's long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off Queensland, Australia, is the world's largest coral reef system, home to thousands of marine species. However, rising ocean temperatures due to climate change have caused repeated mass coral bleaching events, threatening its long-term survival.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. Climate change has caused repeated mass coral bleaching events, posing a significant threat to the long-term survival of the reef's ecosystem.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe Great Barrier Reef, located off Queensland, Australia, is the world's largest coral reef system, home to thousands of species of marine life. However, it is under threat from climate change-induced mass coral bleaching events that are jeopardizing its long-term survival."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_06",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, increasing literacy rates, spreading scientific ideas, and contributing to the Protestant Reformation."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the dissemination of written information across Europe. The printing press enabled rapid and affordable reproduction of texts, expanding literacy, scientific knowledge, and influencing major events like the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe invention of the printing press by Johannes Gutenberg around 1440 revolutionized the dissemination of written information across Europe. Prior to its invention, copying texts by hand was a slow and expensive process that limited access to literacy, but the printing press made it possible to reproduce texts quickly and cheaply.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the dissemination of written information across Europe. The press enabled mass production of books, significantly increasing literacy rates and contributing to the spread of scientific ideas and the Protestant Reformation.",
+        "Here is a 1-2 sentence summary:\n\nThe printing press, invented by Johannes Gutenberg around 1440, revolutionized the spread of written information across Europe by making it possible to reproduce texts quickly and cheaply. This innovation fueled the spread of literacy, scientific ideas, and contributed to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's invention of the printing press around 1440 revolutionized the spread of written information across Europe. The press enabled mass production of books, fueling literacy, scientific ideas, and the spread of revolutionary ideas like the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's printing press, invented around 1440, revolutionized the spread of written information across Europe by allowing for rapid and affordable reproduction. This innovation fueled the growth of literacy, scientific ideas, and contributed to the Protestant Reformation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nJohannes Gutenberg's printing press, invented around 1440, revolutionized the spread of written information across Europe by making mass production possible. This innovation enabled widespread access to literacy, scientific knowledge, and ideas, contributing to significant social and intellectual changes, including the Protestant Reformation.",
+        "Here is a 1-2 sentence summary:\n\nThe invention of the printing press by Johannes Gutenberg in 1440 revolutionized the spread of written information across Europe, allowing for rapid reproduction and widespread dissemination. This innovation greatly expanded literacy rates, fueled the spread of scientific ideas, and contributed to the Protestant Reformation."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_07",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their gravitational effects on nearby objects or capturing images of the surrounding matter."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and astronomers detect them by studying their effects on nearby objects or capturing images of the surrounding glowing matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes are formed when massive stars collapse, and their presence can be inferred by observing their gravitational effects on nearby objects or capturing images of glowing matter around them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space with such strong gravity that not even light can escape once it crosses the event horizon. Black holes are formed when massive stars collapse, and astronomers detect them by observing their gravitational effects on surrounding matter.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing, not even light, can escape once it crosses the event horizon. Black holes form when massive stars collapse and can be detected by studying their gravitational effects on nearby objects or capturing images of glowing matter around them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and scientists detect them by studying their gravitational effects on nearby objects and capturing images of glowing matter swirling around them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space with incredibly strong gravity that prevents anything, including light, from escaping once it crosses the event horizon. Black holes form when massive stars collapse and can be detected by observing their gravitational effects on nearby objects or capturing images of the glowing matter around them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space with incredibly strong gravity that prevents even light from escaping once it crosses a boundary called the event horizon. Black holes are formed when massive stars collapse, and astronomers detect them by observing their gravitational effects on nearby objects or capturing images of the swirling matter around them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nA black hole is a region of space where gravity is so strong that nothing can escape once it crosses the event horizon. Black holes form when massive stars collapse, and are typically detected by their gravitational effects on nearby matter or images of swirling glowing gas around them."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_08",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that brought fresh water from distant sources to cities and towns using gravity. These structures supplied public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable engineering feats that transported fresh water from distant sources to cities and towns using gravity and consistent downward slopes. These aqueducts played a crucial role in supplying public baths, fountains, and private homes, supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were remarkable feats of engineering that brought fresh water from distant sources to cities and towns using gravity-powered canals. These infrastructure systems supported the growth of urban populations by supplying public baths, fountains, and private homes throughout the Roman Empire.",
+        "Ancient Roman aqueducts were remarkable engineering feats that brought fresh water to cities and towns using gravity, supporting the growth of large urban populations. The aqueducts, which sometimes ran underground or above ground on stone arches, supplied public baths, fountains, and private homes throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were engineering marvels that transported fresh water from distant sources to cities, using gravity and stone arches to supply public baths, fountains, and private homes. This infrastructure played a crucial role in supporting the growth of large urban populations throughout the Roman Empire.",
+        "Ancient Roman aqueducts were engineering marvels that transported fresh water from distant sources into cities and towns using gravity, supplying public bathhouses, fountains, and private homes. They played a crucial role in supporting the growth of large urban populations throughout the Roman Empire.",
+        "Here is a 2-sentence summary:\n\nAncient Roman aqueducts were remarkable engineering achievements that brought fresh water from distant sources to cities and towns using gravity and stone arches. These infrastructure systems supplied public and private spaces, supporting the growth of large urban populations and facilitating the development of public baths, fountains, and other civic amenities.",
+        "Here is a 1-2 sentence summary:\n\nAncient Roman aqueducts were remarkable engineering feats that transported fresh water from distant sources to cities and towns using gravity, supplying essential services like public baths and fountains. These infrastructure systems enabled the growth of large urban populations throughout the Roman Empire.",
+        "Here is a summary of the text in 1-2 sentences:\n\nAncient Roman aqueducts were impressive engineering feats that transported fresh water to cities and towns using gravity, supplying public spaces and supporting urban growth. Some aqueducts ran underground or above ground on stone arches, providing water for baths, fountains, homes, and large populations throughout the Roman Empire."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_09",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity."
+      ],
+      "temp07_responses": [
+        "Here is a 1-2 sentence summary:\n\nVaccines work by training the immune system to recognize and fight specific pathogens, such as viruses or bacteria, without causing the disease itself. This allows the vaccinated person's immune system to respond quickly and effectively if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This enables the immune system to respond quickly and effectively if the person is later exposed to the real pathogen.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This allows the vaccinated individual's immune system to respond quickly and effectively if they are later exposed to the real pathogen.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by triggering the production of antibodies, allowing it to respond more effectively if exposed to the real pathogen later. This can prevent illness or reduce its severity, without causing the disease itself.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of them, triggering antibody production. This enables the body to respond quickly if it's later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing a weakened or harmless piece of the pathogen, triggering an antibody response. This allows the vaccinated person's immune system to respond quickly if they are later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by introducing weakened or harmless pieces of them. This prepares the body to respond quickly and effectively if it's later exposed to the real pathogen, often preventing illness or reducing its severity.",
+        "Here is a summary of the text in 1-2 sentences:\n\nVaccines train the immune system to recognize and fight specific pathogens by triggering the production of antibodies. When exposed to the real pathogen later, the vaccinated individual's immune system can respond quickly, often preventing illness or reducing its severity."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_10",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks hoping for long-term value appreciation, while companies use the market to raise capital by selling ownership stakes."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by supply and demand influenced by various factors. Investors buy stocks hoping for long-term gains, while companies use the market to raise capital by issuing ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market allows investors to buy and sell shares of publicly traded companies, with prices determined by supply and demand. Companies use the stock market to raise capital by issuing stocks, while individual investors hope to profit from increasing their share value over time.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is a platform where publicly traded company shares are bought and sold based on supply and demand, influenced by various factors such as earnings and economic indicators. Investors buy stocks with the hope of increasing their value over time, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is a platform where shares of publicly traded companies are bought and sold, with prices determined by factors such as supply and demand. Investors buy stocks expecting their value to increase over time, while companies use stock markets to raise capital by selling ownership stakes to the public.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where shares of publicly traded companies are bought and sold, with prices determined by supply and demand influenced by factors such as company performance and investor sentiment. Investors buy stocks with the hope of earning returns over time, while companies use the stock market to raise capital.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is where publicly traded companies' shares are bought and sold, with prices determined by factors such as company performance, economic indicators, and investor sentiment. Investors purchase stocks with the hope of earning profits from rising values, while companies use stock markets to raise capital through initial public offerings (IPOs) or secondary listings.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is a platform where publicly traded company shares are bought and sold based on supply and demand, influenced by factors such as earnings and economic indicators. Investors buy stocks with the hope of increasing their value over time, while companies use the market to raise capital by selling ownership stakes.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe stock market is a platform where publicly traded company shares are bought and sold, with prices determined by supply and demand influenced by various factors. Investors buy stocks expecting their value to increase over time, while companies use the stock market to raise capital by issuing ownership stakes."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_11",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and introduced ideas about liberty, equality, and citizenship. The revolution was fueled by economic hardship, food shortages, and resentment toward the aristocracy, leading to widespread popular uprisings and the rise of republicanism."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790s) was a period of radical social change that overthrew the monarchy and established republicanism. The revolution sparked widespread discontent, fueled by economic hardship and resentment towards the aristocracy, and introduced influential ideas about liberty, equality, and citizenship.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789) was a pivotal event in which France overthrew its monarchy and transitioned to republicanism, driven by widespread economic hardship, food shortages, and resentment towards the aristocracy. The revolution's emphasis on liberty, equality, and citizenship had a lasting impact on global politics.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution, which began in 1789, was a period of radical social and political upheaval in France that overthrew the monarchy and led to the rise of republicanism. The revolution introduced influential ideas about liberty, equality, and citizenship that shaped global politics for centuries to come.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1799) was a period of radical social and political upheaval that overthrew the monarchy and established republicanism. It was fueled by economic hardship, food shortages, and resentment towards the aristocracy, introducing ideas about liberty, equality, and citizenship that had a lasting impact on world politics.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789) was a period of radical social change that overthrew the monarchy and established republicanism, driven by economic hardship, food shortages, and aristocratic resentment. The revolution's emphasis on liberty, equality, and citizenship had far-reaching influences on global politics for centuries to come.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790) was a period of radical social and political upheaval that overthrew the monarchy and established republicanism. The revolution, fueled by economic hardship and resentment towards the aristocracy, introduced influential ideas about liberty, equality, and citizenship that had a lasting impact on global politics.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790s) was a period of radical social and political upheaval that overthrew the monarchy and led to the rise of republicanism. The revolution was sparked by widespread economic hardship, food shortages, and resentment towards the aristocracy, introducing ideas about liberty, equality, and citizenship that influenced global politics for centuries.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe French Revolution (1789-1790s) was a period of radical social and political upheaval that overthrew the monarchy and led to the rise of republicanism. The revolution's ideals of liberty, equality, and citizenship had a lasting impact on global politics, influencing movements for centuries to come."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_12",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source does not deplete natural resources or produce direct emissions during operation, making it a popular alternative to fossil fuels."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity through photovoltaic cells, exciting electrons and generating an electric current. This clean energy source is considered renewable because it doesn't deplete natural resources or produce direct emissions during operation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels generate electricity by converting sunlight into an electric current using photovoltaic cells made from semiconductor materials. This renewable energy source produces no direct emissions and does not deplete natural resources, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells, which generate electric current when struck by sunlight. This process produces renewable energy that does not deplete natural resources or produce emissions, making it an attractive alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity through photovoltaic cells that excite electrons, generating an electric current. Solar power is considered a renewable energy source because it doesn't deplete natural resources or produce direct emissions, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells made from semiconductor materials, generating an electric current when sunlight strikes them. This renewable energy source produces no emissions or depletes natural resources during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity through photovoltaic cells made from semiconductor materials, exciting electrons and generating an electric current. This renewable energy source produces no direct emissions or depletes natural resources during operation, making it a popular alternative to fossil fuels.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity through photovoltaic cells made from semiconductor materials, generating an electric current when struck by sunlight. Solar power is considered a renewable energy source that doesn't deplete natural resources or produce direct emissions during operation.",
+        "Here is a summary of the text in 1-2 sentences:\n\nSolar panels convert sunlight into electricity using photovoltaic cells that generate an electric current when struck by sunlight. Solar power is considered a renewable energy source because it doesn't deplete natural resources or produce direct emissions, making it a popular alternative to fossil fuels."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_13",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between self and foreign invaders, but it can also malfunction, leading to autoimmune diseases."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that protects the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between the body's own cells and foreign invaders, but it can also malfunction and lead to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against harmful pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between the body's own cells and foreign invaders, but it can also malfunction to cause autoimmune disease.",
+        "Here is a 1-2 sentence summary of the text:\n\nThe human immune system is a complex network that defends against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between foreign invaders and the body's own cells, but can sometimes malfunction to cause autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends the body against harmful pathogens through the coordination of various cells, tissues, and organs. A well-functioning immune system can distinguish between the body's own cells and foreign invaders, but it can also malfunction to cause autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that protects the body against harmful pathogens through the coordinated efforts of white blood cells and other components. A well-functioning immune system can distinguish between self and foreign invaders, but malfunction can lead to autoimmune diseases.",
+        "Here is a 1-2 sentence summary of the text:\n\nThe human immune system is a complex network that defends the body against pathogens through the coordinated efforts of various cells, tissues, and organs. A well-functioning immune system can distinguish between the body's own cells and foreign invaders, but it can also malfunction and lead to autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network of cells, tissues, and organs that work together to defend against harmful pathogens. A well-functioning immune system can distinguish between the body's own cells and foreign invaders, but it can also malfunction and cause autoimmune diseases.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe human immune system is a complex network that defends against harmful pathogens through various cell types and systems. A well-functioning immune system distinguishes between self and foreign cells, but it can also malfunction to cause autoimmune diseases."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_14",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as divided into large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic activity, and mountain range formation over millions of years."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics describes the Earth's outer shell as being divided into several large, rigid plates that float on top of the semi-fluid mantle. The movement and interaction of these plates cause geological events such as earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics describes the Earth's outer shell as consisting of several large, rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates drive geological processes like earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics describes Earth's outer shell as being divided into several rigid plates that float on top of a semi-fluid mantle. The movement and interaction of these plates cause geological events such as earthquakes, volcanic activity, and mountain formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nThe theory of plate tectonics states that the Earth's surface is made up of large, rigid plates floating on the semi-fluid mantle. The movement and interaction of these plates cause geological events like earthquakes, volcanic activity, and mountain formation over millions of years.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that describes Earth's outer shell as being composed of large, rigid plates that move on top of a semi-fluid mantle. The movement and interaction of these plates drives geological processes such as earthquakes, volcanic activity, and mountain formation over millions of years.",
+        "Plate tectonics is a scientific theory that describes the Earth's outer shell as divided into large, moving plates that interact with each other, causing phenomena such as earthquakes, volcanic eruptions, and mountain range formation. These interactions occur between the plates, which float on top of the semi-fluid mantle beneath them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nPlate tectonics is the scientific theory that Earth's surface is divided into large, rigid plates that move atop a semi-fluid mantle. The movement and interaction of these plates shape the planet's surface, causing phenomena like earthquakes, volcanic activity, and mountain range formation over millions of years.",
+        "Plate tectonics is a scientific theory that describes Earth's outer shell as divided into rigid plates that float on the semi-fluid mantle beneath them. The movement and interaction of these plates drive geological processes such as earthquakes, volcanic eruptions, and mountain range formation over millions of years."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "summ_15",
+      "task_type": "summarization",
+      "temp0_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them."
+      ],
+      "temp07_responses": [
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food and color. If conditions persist, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel their colorful algae due to stress caused by elevated ocean temperatures, leading to a loss of food source. If left unchecked, coral reefs can die and biodiversity is threatened, impacting marine life that depends on them.",
+        "Here is a 2-sentence summary:\n\nCoral bleaching occurs when corals expel algae living in their tissues due to stress caused by elevated ocean temperatures, causing them to turn white. If conditions persist, bleached coral reefs can die, leading to reduced biodiversity and threatening the marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel the algae living in their tissues due to stress caused by factors such as high ocean temperatures, leading to a loss of food and color. If left unchecked, coral bleaching can cause reefs to die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a 1-2 sentence summary:\n\nCoral bleaching occurs when corals expel the algae living in their tissues due to stress caused by elevated ocean temperatures or other conditions, leading to a loss of color and potentially starvation. If left untreated, bleached coral reefs can die, reducing biodiversity and threatening marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel the algae living in their tissues due to stress caused by high ocean temperatures or other environmental factors. If left unchecked, coral bleaching can lead to the death of coral reefs and threaten the marine life that depends on them.",
+        "Here is a summary of the text in 1-2 sentences:\n\nCoral bleaching occurs when corals expel algae due to stress caused by high ocean temperatures, causing them to turn white. If left untreated, bleached coral reefs can die, leading to reduced biodiversity and threatening marine life that depends on them.",
+        "Here is a 2-sentence summary:\n\nCoral bleaching occurs when corals expel algae due to stress caused by high ocean temperatures or other factors, leading to a loss of color and nutritional resources. If left unchecked, coral reefs can die, reducing biodiversity and threatening the marine life that depends on them."
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 1.0,
+      "agreement_rate_vs_temp0_reference": 0.125,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": false
+    },
+    {
+      "prompt_id": "json_contact_01",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\",\"email\": \"sarah.chen@example.com\",\"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\",\"email\": \"sarah.chen@example.com\",\"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}",
+        "{\"name\": \"Sarah Chen\", \"email\": \"sarah.chen@example.com\", \"phone\": \"555-123-4567\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_contact_02",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Miguel Torres\",\"email\": \"miguel.torres@support.io\",\"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\",\"email\": \"miguel.torres@support.io\",\"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\",\"email\": \"miguel.torres@support.io\",\"phone\": \"415-555-0199\"}",
+        "{\"name\": \"Miguel Torres\", \"email\": \"miguel.torres@support.io\", \"phone\": \"415-555-0199\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.625,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_contact_03",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\":\"Priya Nair\",\"email\":\"priya.nair@hrfirm.com\",\"phone\":\"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\",\"email\": \"priya.nair@hrfirm.com\",\"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}",
+        "{\"name\":\"Priya Nair\",\"email\":\"priya.nair@hrfirm.com\",\"phone\":\"212-555-7788\"}",
+        "{\"name\": \"Priya Nair\", \"email\": \"priya.nair@hrfirm.com\", \"phone\": \"212-555-7788\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.375,
+      "agreement_rate_vs_temp0_reference": 0.625,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_contact_04",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\", \"email\": \"james.obrien@billingco.com\", \"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\", \"email\": \"james.obrien@billingco.com\", \"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\", \"email\": \"james.obrien@billingco.com\", \"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}",
+        "{\"name\": \"James O'Brien\",\"email\": \"james.obrien@billingco.com\",\"phone\": \"800-555-3322\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.625,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_contact_05",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\",\"email\": \"aiko.tanaka@studio.jp\",\"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\",\"email\": \"aiko.tanaka@studio.jp\",\"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}",
+        "{ \"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\" }",
+        "{\"name\": \"Aiko Tanaka\",\"email\": \"aiko.tanaka@studio.jp\",\"phone\": \"03-5555-1234\"}",
+        "{\"name\": \"Aiko Tanaka\", \"email\": \"aiko.tanaka@studio.jp\", \"phone\": \"03-5555-1234\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.375,
+      "agreement_rate_vs_temp0_reference": 0.5,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_event_01",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}"
+      ],
+      "temp07_responses": [
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}",
+        "{\"title\": \"Annual Tech Summit\", \"date\": \"March 14, 2026\", \"location\": \"Moscone Center, San Francisco\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_event_02",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}"
+      ],
+      "temp07_responses": [
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{ \"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\" }",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}",
+        "{\"title\": \"Downtown Jazz Festival\", \"date\": \"July 9, 2026\", \"location\": \"Riverside Park\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.875,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_event_03",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}"
+      ],
+      "temp07_responses": [
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall, Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall, Austin\"}",
+        "{\"title\": \"Product Launch Party\", \"date\": \"September 2, 2026\", \"location\": \"The Grand Hall in Austin\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_event_04",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}"
+      ],
+      "temp07_responses": [
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}",
+        "{\"title\": \"Regional Science Fair\", \"date\": \"April 21, 2026\", \"location\": \"Lincoln High School Gymnasium\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_event_05",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}"
+      ],
+      "temp07_responses": [
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}",
+        "{\"title\": \"Charity Gala Dinner\", \"date\": \"December 5, 2026\", \"location\": \"Fairmont Hotel Ballroom\"}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_product_01",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{ \"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true }",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}",
+        "{ \"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true }",
+        "{\"name\": \"Wireless Noise-Cancelling Headphones\", \"price\": 199.99, \"in_stock\": true}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_product_02",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}",
+        "{\"name\": \"Stainless Steel Water Bottle\", \"price\": 24.5, \"in_stock\": false}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.125,
+      "agreement_rate_vs_temp0_reference": 1.0,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_product_03",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349, \"in_stock\": true}",
+        "{ \"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true }",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}",
+        "{\"name\": \"Ergonomic Office Chair\", \"price\": 349.0, \"in_stock\": true}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.375,
+      "agreement_rate_vs_temp0_reference": 0.625,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_product_04",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{ \"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false }",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{\"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false}",
+        "{ \"name\": \"Limited Edition Leather Backpack\", \"price\": 129.95, \"in_stock\": false }"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.75,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    },
+    {
+      "prompt_id": "json_product_05",
+      "task_type": "json_extraction",
+      "temp0_responses": [
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}"
+      ],
+      "temp07_responses": [
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{ \"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true }",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}",
+        "{\"name\": \"Compact Espresso Machine\", \"price\": 89.99, \"in_stock\": true}"
+      ],
+      "temp0_unique_fraction": 0.125,
+      "temp07_unique_fraction": 0.25,
+      "agreement_rate_vs_temp0_reference": 0.875,
+      "temp0_validation_failures": 0,
+      "temp07_validation_failures": 0,
+      "is_json_task": true
+    }
+  ],
+  "mean_temp0_unique_fraction": 0.125,
+  "mean_temp07_unique_fraction": 0.49722222222222223,
+  "mean_agreement_rate": 0.49722222222222223,
+  "temp0_json_validation_failure_rate": 0.0,
+  "temp07_json_validation_failure_rate": 0.0
+}

@@ -1,0 +1,481 @@
+# Standardized prompt set (45 prompts, 15 per task type) reused across:
+#   Phase 1 - inference benchmarking (all prompts, task-agnostic)
+#   Phase 2 - JSON schema validation + retry (json_extraction subset) and
+#             temperature experiment (all prompts)
+#   Phase 3 - three-model quality comparison (all prompts, scored per task_type)
+#
+# task_type: factual_qa | summarization | json_extraction
+# json_extraction.schema_name must match a class in structured/schemas_catalog.SCHEMA_REGISTRY
+
+- id: fact_01
+  task_type: factual_qa
+  prompt: "What is the capital of France? Answer with just the city name."
+  expected_answer: "Paris"
+
+- id: fact_02
+  task_type: factual_qa
+  prompt: "What is the chemical symbol for gold? Answer with just the symbol."
+  expected_answer: "Au"
+
+- id: fact_03
+  task_type: factual_qa
+  prompt: "Who wrote the play Romeo and Juliet? Answer with just the name."
+  expected_answer: "William Shakespeare"
+
+- id: fact_04
+  task_type: factual_qa
+  prompt: "What is the largest planet in our solar system? Answer with just the planet name."
+  expected_answer: "Jupiter"
+
+- id: fact_05
+  task_type: factual_qa
+  prompt: "In what year did World War II end? Answer with just the year."
+  expected_answer: "1945"
+
+- id: fact_06
+  task_type: factual_qa
+  prompt: "What is the tallest mountain in the world? Answer with just the name."
+  expected_answer: "Mount Everest"
+
+- id: fact_07
+  task_type: factual_qa
+  prompt: "What is the smallest prime number? Answer with just the number."
+  expected_answer: "2"
+
+- id: fact_08
+  task_type: factual_qa
+  prompt: "Who painted the Mona Lisa? Answer with just the name."
+  expected_answer: "Leonardo da Vinci"
+
+- id: fact_09
+  task_type: factual_qa
+  prompt: "What is the official currency of Japan? Answer with just the currency name."
+  expected_answer: "Yen"
+
+- id: fact_10
+  task_type: factual_qa
+  prompt: "How many continents are there on Earth? Answer with just the number."
+  expected_answer: "7"
+
+- id: fact_11
+  task_type: factual_qa
+  prompt: "What is the boiling point of water in Celsius at sea level? Answer with just the number."
+  expected_answer: "100"
+
+- id: fact_12
+  task_type: factual_qa
+  prompt: "Who was the first person to walk on the Moon? Answer with just the name."
+  expected_answer: "Neil Armstrong"
+
+- id: fact_13
+  task_type: factual_qa
+  prompt: "What is the longest river in the world? Answer with just the name."
+  expected_answer: "Nile"
+
+- id: fact_14
+  task_type: factual_qa
+  prompt: "What gas do plants primarily absorb from the atmosphere for photosynthesis? Answer with just the gas name."
+  expected_answer: "Carbon dioxide"
+
+- id: fact_15
+  task_type: factual_qa
+  prompt: "What is the freezing point of water in Celsius? Answer with just the number."
+  expected_answer: "0"
+
+- id: summ_01
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Photosynthesis is the process by which green plants, algae, and some bacteria convert
+    light energy into chemical energy. Using sunlight, water, and carbon dioxide, these
+    organisms produce glucose and release oxygen as a byproduct. This process takes place
+    primarily in the chloroplasts of plant cells, which contain the pigment chlorophyll.
+    Photosynthesis is the foundation of most food chains on Earth and is responsible for
+    producing the oxygen that most living organisms depend on to survive.
+  expected_keywords: ["photosynthesis", "light energy", "chlorophyll", "oxygen", "glucose"]
+
+- id: summ_02
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Honeybees live in highly organized colonies made up of a single queen, thousands of
+    female worker bees, and a smaller number of male drones. Worker bees forage for nectar
+    and pollen, communicating the location of food sources to each other through a
+    movement pattern known as the waggle dance. Bees play a critical role in pollinating
+    many of the crops humans rely on for food, making them essential to global agriculture.
+  expected_keywords: ["honeybees", "colony", "queen", "pollination", "waggle dance"]
+
+- id: summ_03
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The water cycle describes the continuous movement of water on, above, and below the
+    surface of the Earth. Water evaporates from oceans, lakes, and rivers, rises into the
+    atmosphere, and cools to form clouds through condensation. Eventually the water falls
+    back to Earth as precipitation, such as rain or snow, and either flows into bodies of
+    water or seeps into the ground, restarting the cycle.
+  expected_keywords: ["water cycle", "evaporation", "condensation", "precipitation"]
+
+- id: summ_04
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Machine learning is a branch of artificial intelligence in which computer systems
+    learn patterns from data rather than following explicit, hand-written rules. A model
+    is trained on a dataset, adjusting its internal parameters to minimize prediction
+    error, and can then be applied to new, unseen data. Common applications include image
+    recognition, language translation, and recommendation systems used by many online
+    platforms.
+  expected_keywords: ["machine learning", "artificial intelligence", "data", "model", "training"]
+
+- id: summ_05
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The Great Barrier Reef, located off the coast of Queensland, Australia, is the
+    world's largest coral reef system, stretching over 2,300 kilometers. It is home to
+    thousands of species of marine life, including fish, mollusks, and sea turtles.
+    Rising ocean temperatures linked to climate change have caused repeated mass coral
+    bleaching events, threatening the long-term survival of the reef's ecosystem.
+  expected_keywords: ["Great Barrier Reef", "coral", "Australia", "climate change", "bleaching"]
+
+- id: summ_06
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The printing press, invented by Johannes Gutenberg around 1440, revolutionized the
+    spread of written information across Europe. Before its invention, books were copied
+    by hand, a slow and expensive process that limited literacy to a small elite. The
+    printing press allowed texts to be reproduced quickly and cheaply, fueling the spread
+    of literacy, scientific ideas, and eventually the Protestant Reformation.
+  expected_keywords: ["printing press", "Gutenberg", "literacy", "books"]
+
+- id: summ_07
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    A black hole is a region of space where gravity is so strong that nothing, not even
+    light, can escape once it crosses a boundary called the event horizon. Black holes
+    form when massive stars collapse at the end of their life cycle. Although they cannot
+    be observed directly, astronomers detect black holes by studying their gravitational
+    effects on nearby stars and gas, and by capturing images of the glowing matter that
+    swirls around them.
+  expected_keywords: ["black hole", "gravity", "event horizon", "star"]
+
+- id: summ_08
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Ancient Roman aqueducts were engineering marvels that transported fresh water from
+    distant sources into cities and towns, using gravity to move water along a slight,
+    consistent downward slope. Some aqueducts ran underground, while others were carried
+    above ground on tall stone arches. This infrastructure supplied public baths,
+    fountains, and private homes, and supported the growth of large urban populations
+    throughout the Roman Empire.
+  expected_keywords: ["aqueducts", "Roman", "water", "gravity"]
+
+- id: summ_09
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Vaccines work by training the immune system to recognize and fight specific
+    pathogens, such as viruses or bacteria, without causing the disease itself. They
+    typically contain a weakened or inactivated form of the pathogen, or a harmless piece
+    of it, which triggers the production of antibodies. If the vaccinated person is later
+    exposed to the real pathogen, their immune system can respond quickly, often
+    preventing illness or reducing its severity.
+  expected_keywords: ["vaccines", "immune system", "antibodies", "pathogen"]
+
+- id: summ_10
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The stock market is a collection of exchanges where shares of publicly traded
+    companies are bought and sold. Prices are determined by supply and demand, which are
+    influenced by factors such as company earnings, economic indicators, and investor
+    sentiment. Investors buy stocks hoping their value will rise over time, while
+    companies use stock markets to raise capital by selling ownership stakes to the
+    public.
+  expected_keywords: ["stock market", "shares", "companies", "supply and demand"]
+
+- id: summ_11
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The French Revolution, beginning in 1789, was a period of radical social and
+    political upheaval in France that overthrew the monarchy and led to the rise of
+    republicanism. Widespread economic hardship, food shortages, and resentment toward
+    the aristocracy fueled popular uprisings. The revolution introduced ideas about
+    liberty, equality, and citizenship that influenced political movements across the
+    world for centuries afterward.
+  expected_keywords: ["French Revolution", "monarchy", "1789", "liberty"]
+
+- id: summ_12
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Solar panels convert sunlight directly into electricity using photovoltaic cells made
+    from semiconductor materials, typically silicon. When sunlight strikes these cells, it
+    excites electrons and generates an electric current. Solar power is considered a
+    renewable energy source because it does not deplete natural resources or produce
+    direct emissions during operation, making it an increasingly popular alternative to
+    fossil fuels.
+  expected_keywords: ["solar panels", "electricity", "photovoltaic", "renewable"]
+
+- id: summ_13
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    The human immune system is a complex network of cells, tissues, and organs that work
+    together to defend the body against harmful pathogens. White blood cells identify and
+    destroy invaders, while the lymphatic system helps transport immune cells throughout
+    the body. A well-functioning immune system can distinguish between the body's own
+    cells and foreign invaders, though this process can sometimes malfunction and cause
+    autoimmune disease.
+  expected_keywords: ["immune system", "white blood cells", "pathogens"]
+
+- id: summ_14
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Plate tectonics is the scientific theory that Earth's outer shell is divided into
+    several large, rigid plates that float and move atop the semi-fluid mantle beneath
+    them. The movement and interaction of these plates, whether colliding, pulling apart,
+    or sliding past one another, is responsible for earthquakes, volcanic activity, and
+    the formation of mountain ranges over millions of years.
+  expected_keywords: ["plate tectonics", "earthquakes", "mantle", "volcanic"]
+
+- id: summ_15
+  task_type: summarization
+  prompt: >
+    Summarize the following text in 1-2 sentences:
+
+    Coral bleaching occurs when corals, stressed by changes such as elevated ocean
+    temperatures, expel the colorful algae living in their tissues, causing them to turn
+    white. Without these algae, which provide corals with food and much of their color,
+    coral can starve and become more vulnerable to disease. If stressful conditions
+    persist for too long, bleached coral reefs can die, reducing biodiversity and
+    threatening the marine life that depends on them.
+  expected_keywords: ["coral bleaching", "algae", "ocean temperature", "reef"]
+
+- id: json_contact_01
+  task_type: json_extraction
+  schema_name: ContactInfo
+  prompt: >
+    Extract the contact information from the text below as JSON with fields "name",
+    "email", and "phone".
+
+    Text: "Please reach out to Sarah Chen at sarah.chen@example.com or by phone at
+    555-123-4567 if you have any questions about the proposal."
+  expected_fields:
+    name: "Sarah Chen"
+    email: "sarah.chen@example.com"
+    phone: "555-123-4567"
+
+- id: json_contact_02
+  task_type: json_extraction
+  schema_name: ContactInfo
+  prompt: >
+    Extract the contact information from the text below as JSON with fields "name",
+    "email", and "phone".
+
+    Text: "For support, contact our representative Miguel Torres. His email is
+    miguel.torres@support.io and his direct line is 415-555-0199."
+  expected_fields:
+    name: "Miguel Torres"
+    email: "miguel.torres@support.io"
+    phone: "415-555-0199"
+
+- id: json_contact_03
+  task_type: json_extraction
+  schema_name: ContactInfo
+  prompt: >
+    Extract the contact information from the text below as JSON with fields "name",
+    "email", and "phone".
+
+    Text: "The hiring manager for this role is Priya Nair (priya.nair@hrfirm.com,
+    212-555-7788). Feel free to follow up with her directly."
+  expected_fields:
+    name: "Priya Nair"
+    email: "priya.nair@hrfirm.com"
+    phone: "212-555-7788"
+
+- id: json_contact_04
+  task_type: json_extraction
+  schema_name: ContactInfo
+  prompt: >
+    Extract the contact information from the text below as JSON with fields "name",
+    "email", and "phone".
+
+    Text: "Questions about billing should go to our accounts team lead, James O'Brien,
+    at james.obrien@billingco.com or 800-555-3322."
+  expected_fields:
+    name: "James O'Brien"
+    email: "james.obrien@billingco.com"
+    phone: "800-555-3322"
+
+- id: json_contact_05
+  task_type: json_extraction
+  schema_name: ContactInfo
+  prompt: >
+    Extract the contact information from the text below as JSON with fields "name",
+    "email", and "phone".
+
+    Text: "Our new office manager, Aiko Tanaka, can be reached at aiko.tanaka@studio.jp
+    or by calling 03-5555-1234."
+  expected_fields:
+    name: "Aiko Tanaka"
+    email: "aiko.tanaka@studio.jp"
+    phone: "03-5555-1234"
+
+- id: json_event_01
+  task_type: json_extraction
+  schema_name: EventDetails
+  prompt: >
+    Extract the event details from the text below as JSON with fields "title", "date",
+    and "location".
+
+    Text: "Join us for the Annual Tech Summit on March 14, 2026 at the Moscone Center in
+    San Francisco."
+  expected_fields:
+    title: "Annual Tech Summit"
+    date: "March 14, 2026"
+    location: "Moscone Center in San Francisco"
+
+- id: json_event_02
+  task_type: json_extraction
+  schema_name: EventDetails
+  prompt: >
+    Extract the event details from the text below as JSON with fields "title", "date",
+    and "location".
+
+    Text: "The Downtown Jazz Festival will take place on July 9, 2026 in Riverside Park."
+  expected_fields:
+    title: "Downtown Jazz Festival"
+    date: "July 9, 2026"
+    location: "Riverside Park"
+
+- id: json_event_03
+  task_type: json_extraction
+  schema_name: EventDetails
+  prompt: >
+    Extract the event details from the text below as JSON with fields "title", "date",
+    and "location".
+
+    Text: "You're invited to the Product Launch Party on September 2, 2026, held at The
+    Grand Hall in Austin."
+  expected_fields:
+    title: "Product Launch Party"
+    date: "September 2, 2026"
+    location: "The Grand Hall in Austin"
+
+- id: json_event_04
+  task_type: json_extraction
+  schema_name: EventDetails
+  prompt: >
+    Extract the event details from the text below as JSON with fields "title", "date",
+    and "location".
+
+    Text: "The Regional Science Fair is scheduled for April 21, 2026 at Lincoln High
+    School Gymnasium."
+  expected_fields:
+    title: "Regional Science Fair"
+    date: "April 21, 2026"
+    location: "Lincoln High School Gymnasium"
+
+- id: json_event_05
+  task_type: json_extraction
+  schema_name: EventDetails
+  prompt: >
+    Extract the event details from the text below as JSON with fields "title", "date",
+    and "location".
+
+    Text: "Mark your calendars for the Charity Gala Dinner on December 5, 2026 at the
+    Fairmont Hotel Ballroom."
+  expected_fields:
+    title: "Charity Gala Dinner"
+    date: "December 5, 2026"
+    location: "Fairmont Hotel Ballroom"
+
+- id: json_product_01
+  task_type: json_extraction
+  schema_name: ProductInfo
+  prompt: >
+    Extract the product information from the text below as JSON with fields "name",
+    "price", and "in_stock" (true or false).
+
+    Text: "The Wireless Noise-Cancelling Headphones are priced at $199.99 and are
+    currently in stock."
+  expected_fields:
+    name: "Wireless Noise-Cancelling Headphones"
+    price: 199.99
+    in_stock: true
+
+- id: json_product_02
+  task_type: json_extraction
+  schema_name: ProductInfo
+  prompt: >
+    Extract the product information from the text below as JSON with fields "name",
+    "price", and "in_stock" (true or false).
+
+    Text: "Unfortunately the Stainless Steel Water Bottle, priced at $24.50, is out of
+    stock at the moment."
+  expected_fields:
+    name: "Stainless Steel Water Bottle"
+    price: 24.50
+    in_stock: false
+
+- id: json_product_03
+  task_type: json_extraction
+  schema_name: ProductInfo
+  prompt: >
+    Extract the product information from the text below as JSON with fields "name",
+    "price", and "in_stock" (true or false).
+
+    Text: "Our best-selling Ergonomic Office Chair is available now for $349.00."
+  expected_fields:
+    name: "Ergonomic Office Chair"
+    price: 349.00
+    in_stock: true
+
+- id: json_product_04
+  task_type: json_extraction
+  schema_name: ProductInfo
+  prompt: >
+    Extract the product information from the text below as JSON with fields "name",
+    "price", and "in_stock" (true or false).
+
+    Text: "The Limited Edition Leather Backpack is sold out; it normally retails for
+    $129.95."
+  expected_fields:
+    name: "Limited Edition Leather Backpack"
+    price: 129.95
+    in_stock: false
+
+- id: json_product_05
+  task_type: json_extraction
+  schema_name: ProductInfo
+  prompt: >
+    Extract the product information from the text below as JSON with fields "name",
+    "price", and "in_stock" (true or false).
+
+    Text: "Good news: the Compact Espresso Machine is back in stock, now priced at
+    $89.99."
+  expected_fields:
+    name: "Compact Espresso Machine"
+    price: 89.99
+    in_stock: true

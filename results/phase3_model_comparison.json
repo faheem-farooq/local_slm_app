@@ -1,0 +1,1202 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "benchmark": {
+      "model": "llama3.2:3b",
+      "n_trials": 225,
+      "ttft_seconds": {
+        "mean": 0.2923434003789185,
+        "stdev": 0.09298770073762684,
+        "min": 0.2134223329485394,
+        "max": 0.968941333994735,
+        "n": 225
+      },
+      "tokens_per_second": {
+        "mean": 19.081111308008023,
+        "stdev": 3.595922563059161,
+        "min": 5.581229864125525,
+        "max": 24.734303696033674,
+        "n": 225
+      },
+      "total_seconds": {
+        "mean": 2.153215028706472,
+        "stdev": 1.6947537284155143,
+        "min": 0.2603575000539422,
+        "max": 6.314308290951885,
+        "n": 225
+      },
+      "cold_load_duration_seconds": 0.22385075
+    },
+    "memory": {
+      "model": "llama3.2:3b",
+      "size_str": "2.5 GB",
+      "processor": "100% GPU     4096"
+    },
+    "factual_accuracy": 1.0,
+    "summarization_mean_score": 0.8454444444444443,
+    "json_schema_valid_rate": 1.0,
+    "json_field_accuracy": 0.9777777777777777,
+    "per_prompt_quality": [
+      {
+        "prompt_id": "fact_01",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_02",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_03",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_04",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_05",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_06",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_07",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_08",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_09",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_10",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_11",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_12",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_13",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_14",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_15",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_01",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.7666666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_02",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6666666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_03",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6033333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_04",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.7933333333333332,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_05",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.94,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_06",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9933333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_07",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9066666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_08",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9666666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_09",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.7316666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_10",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.8999999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_11",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9066666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_12",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.94,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_13",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.7066666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_14",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9133333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_15",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9466666666666665,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "json_contact_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 0.6666666666666666
+      },
+      {
+        "prompt_id": "json_event_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      }
+    ]
+  },
+  {
+    "model": "phi4-mini:3.8b",
+    "benchmark": {
+      "model": "phi4-mini:3.8b",
+      "n_trials": 225,
+      "ttft_seconds": {
+        "mean": 0.39487602589858906,
+        "stdev": 0.32571943172988765,
+        "min": 0.2442711249459535,
+        "max": 4.365978832996916,
+        "n": 225
+      },
+      "tokens_per_second": {
+        "mean": 14.605324192201175,
+        "stdev": 2.5021002969360064,
+        "min": 5.349009497071827,
+        "max": 19.672147268275683,
+        "n": 225
+      },
+      "total_seconds": {
+        "mean": 2.1544929126029215,
+        "stdev": 1.3340074906055361,
+        "min": 0.296606374962721,
+        "max": 5.31082700000843,
+        "n": 225
+      },
+      "cold_load_duration_seconds": 4.145756292
+    },
+    "memory": {
+      "model": "phi4-mini:3.8b",
+      "size_str": "3.1 GB",
+      "processor": "100% GPU     4096"
+    },
+    "factual_accuracy": 0.9333333333333333,
+    "summarization_mean_score": 0.7942222222222222,
+    "json_schema_valid_rate": 1.0,
+    "json_field_accuracy": 0.9555555555555556,
+    "per_prompt_quality": [
+      {
+        "prompt_id": "fact_01",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_02",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_03",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_04",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_05",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_06",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_07",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_08",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_09",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_10",
+        "task_type": "factual_qa",
+        "correct": false,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_11",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_12",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_13",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_14",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_15",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_01",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.8599999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_02",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.58,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_03",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6499999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_04",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.72,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_05",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_06",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.825,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_07",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.94,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_08",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_09",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6499999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_10",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.5633333333333334,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_11",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.825,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_12",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.825,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_13",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_14",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6499999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_15",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.825,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "json_contact_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 0.6666666666666666
+      },
+      {
+        "prompt_id": "json_event_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 0.6666666666666666
+      },
+      {
+        "prompt_id": "json_event_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      }
+    ]
+  },
+  {
+    "model": "mistral:7b",
+    "benchmark": {
+      "model": "mistral:7b",
+      "n_trials": 90,
+      "ttft_seconds": {
+        "mean": 1.0856999745333775,
+        "stdev": 1.4395408476943532,
+        "min": 0.14911975001450628,
+        "max": 8.729761041002348,
+        "n": 90
+      },
+      "tokens_per_second": {
+        "mean": 5.941502883763751,
+        "stdev": 2.089829204286023,
+        "min": 0.9063297421008445,
+        "max": 9.635803576303545,
+        "n": 90
+      },
+      "total_seconds": {
+        "mean": 7.410911784181371,
+        "stdev": 7.069196870017966,
+        "min": 0.34761962498305365,
+        "max": 52.2257511659991,
+        "n": 90
+      },
+      "cold_load_duration_seconds": 5.958957542
+    },
+    "memory": {
+      "model": "mistral:7b",
+      "size_str": "5.1 GB",
+      "processor": "10%/90% CPU/GPU    4096"
+    },
+    "factual_accuracy": 1.0,
+    "summarization_mean_score": 0.9058888888888889,
+    "json_schema_valid_rate": 1.0,
+    "json_field_accuracy": 0.9555555555555556,
+    "per_prompt_quality": [
+      {
+        "prompt_id": "fact_01",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_02",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_03",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_04",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_05",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_06",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_07",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_08",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_09",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_10",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_11",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_12",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_13",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_14",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "fact_15",
+        "task_type": "factual_qa",
+        "correct": true,
+        "summarization_score": null,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_01",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.8733333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_02",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.72,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_03",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.6499999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_04",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.8599999999999999,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_05",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_06",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_07",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9333333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_08",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9866666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_09",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.7383333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_10",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9066666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_11",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9733333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_12",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9733333333333333,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_13",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9866666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_14",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 1.0,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "summ_15",
+        "task_type": "summarization",
+        "correct": null,
+        "summarization_score": 0.9866666666666666,
+        "json_schema_valid": null,
+        "json_field_accuracy": null
+      },
+      {
+        "prompt_id": "json_contact_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_contact_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 0.6666666666666666
+      },
+      {
+        "prompt_id": "json_event_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_event_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_01",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_02",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_03",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      },
+      {
+        "prompt_id": "json_product_04",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 0.6666666666666666
+      },
+      {
+        "prompt_id": "json_product_05",
+        "task_type": "json_extraction",
+        "correct": null,
+        "summarization_score": null,
+        "json_schema_valid": true,
+        "json_field_accuracy": 1.0
+      }
+    ]
+  }
+]

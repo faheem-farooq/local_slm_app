@@ -1,0 +1,5 @@
+{"model": "llama3.2:3b", "response": "", "done": false}
+{"model": "llama3.2:3b", "response": "Paris", "done": false}
+{"model": "llama3.2:3b", "response": " is", "done": false}
+{"model": "llama3.2:3b", "response": " great.", "done": false}
+{"model": "llama3.2:3b", "response": "", "done": true, "prompt_eval_count": 12, "eval_count": 4, "eval_duration": 400000000, "load_duration": 250000000, "total_duration": 700000000}
