@@ -13,11 +13,6 @@ that actually costs in speed, making its output reliable enough to build on
 candidate models head-to-head the way an engineering team would before picking
 one for production.
 
-> **TL;DR result:** on an 8GB Apple M1 MacBook Air with no discrete GPU, a 3B
-> local model sustains ~18 tokens/sec with sub-400ms time-to-first-token —
-> fast enough for a lot of real interactive use cases, entirely offline, for
-> zero marginal cost per call.
-
 ## Phase 3: model comparison report
 
 Live results, same 45-prompt set, run sequentially on the hardware described
